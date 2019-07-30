@@ -8,3 +8,29 @@
   margin-right: 5px;
   fill: #828282;
 }
+
+
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) {
+  #main-container {
+    background-color: blue;
+  }
+}
+/* stylus-based screens */
+@media (hover: none) and (pointer: fine) {
+  #main-container {
+    background-color: red;
+  }
+}
+/* Nintendo Wii controller, Microsoft Kinect */
+@media (hover: hover) and (pointer: coarse) {
+  #main-container {
+    background-color: green;
+  }
+}
+/* mouse, touch pad */
+@media (hover: hover) and (pointer: fine) {
+  #main-container {
+    background-color: yellow;
+  }
+}
